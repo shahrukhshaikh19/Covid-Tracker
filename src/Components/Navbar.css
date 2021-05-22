@@ -1,0 +1,49 @@
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  
+  
+  
+  .nav__content {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #1f967b;
+    border-top: 1px solid #1f967b;
+  }
+  
+  .nav__list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav__list li {
+    margin: 0 1.2rem;
+  }
+  
+  .nav__link {
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 0.3rem;
+    transition: all .4s;
+  }
+  
+  .active {
+    border-bottom: 1px solid #a5d6c4;
+    background-color: #a5d6c4;
+    color: #fff;
+    padding: .8rem;
+    
+  }
+  
+ 
+  
+  
+  
+  
+  
+  

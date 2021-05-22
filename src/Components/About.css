@@ -1,0 +1,238 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+  }
+  
+  .btn {
+    border: 0;
+    background: 0;
+    cursor: pointer;
+  }
+  
+  .header-top {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .btn-nav-main-menu-wrapper {
+    padding: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .btn-download-resume {
+    color: #ffffff;
+    border-radius: 100px;
+    border: 1px solid #fcbf3a;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    transition: all 0.5s;
+  }
+  
+  .nav-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #116466;
+  }
+  
+  .nav-main ul {
+    display: none;
+  }
+  
+  .nav-main ul li {
+    text-transform: uppercase;
+    margin-right: 1rem;
+    color: #ffffff;
+    transition: all 0.5s;
+  }
+  
+  .nav-main ul li:hover {
+    color: #fcbf3a;
+    text-decoration: line-through;
+  }
+  
+  .nav-main ul li a {
+    color: inherit;
+  }
+  
+  .nav-main ul li a:visited {
+    color: inherit;
+  }
+  
+  .main-content {
+    height: calc(100vh - 60px);
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .creations {
+    color: #ffffff;
+  }
+  
+  .creations h3 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+  }
+  
+  .creations-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .creation-card {
+    flex: calc(100% / 3 - 10px) 0 0;
+    border: 1px solid #fff;
+    min-height: 200px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  
+  .creation-card .creation-card-text-link {
+    width: 100%;
+    height: 80%;
+    border: 1px solid #333;
+    border-radius: inherit inherit 0 0;
+  }
+  
+  .creation-card .text-project-name-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+  }
+  
+  .creation-card .text-project-name {
+    vertical-align: middle;
+  }
+  
+  .creation-card .text-project-name::before {
+    content: "{";
+    vertical-align: top;
+    font-weight: 700;
+    display: none;
+  }
+  
+  .creation-card .text-project-name::after {
+    content: "}";
+    vertical-align: top;
+    font-weight: 700;
+    display: none;
+  }
+  
+  .text-header-main-content {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .contact .text-caption-contact {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  .contact .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 40px;
+  }
+  
+  .contact .contact-links li {
+    margin-right: 20px;
+    transition: all 0.5s;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .contact .contact-links li:hover {
+    margin-top: 10px;
+  }
+  
+  .contact .contact-links a {
+    color: #ffffff;
+  }
+  
+  a.project-tile {
+    color: #ffffff;
+  }
+  
+  a.project-tile:visited {
+    color: #ffffff;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .nav-main ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .nav-main li {
+      flex: auto;
+    }
+  
+    .contact .contact-links li {
+      font-size: 2rem;
+    }
+  }
+  .a{
+   font-size: 20px;
+ }
+ .Navlinl{
+   font-size: 20px;
+ }
