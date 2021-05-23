@@ -15,10 +15,10 @@ function App() {
         <h1 className="text">Covid-19 Tracker</h1>{/*<img src="https://fontmeme.com/permalink/210521/4803b88a361e0dfea4ee1a304a1ee3db.png"/>*/}&nbsp;<p className="live">🔴Live</p>
         <Navbar />
        <switch>
-       <Route exact path='/Sharukh-sCoronaApp'  component={FetchCovidData}/>
-          <Route exact path='/Sharukh-sCoronaApp/StateWise'  component={StateWise}/>
-          <Route exact path='/Sharukh-sCoronaApp/About'  component={About}/>
-          <Redirect exact from="/" to="/Sharukh-sCoronaApp" />
+       <Route exact path='/Covid-Tracker'  component={FetchCovidData}/>
+          <Route exact path='/Covid-Tracker/StateWise'  component={StateWise}/>
+          <Route exact path='/Covid-Tracker/About'  component={About}/>
+          <Redirect exact from="/" to="/Covid-Tracker" />
        </switch>
         <div class="made-with-love">
           <span>Made with</span>
