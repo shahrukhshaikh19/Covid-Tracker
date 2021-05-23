@@ -18,7 +18,7 @@ function App() {
           <Route path='/home' exact component={FetchCovidData}/>
           <Route path='/StateWise' exact component={StateWise}/>
           <Route path='/About' exact component={About}/>
-          <Redirect exact from="/" to="/home" />
+          <Redirect exact from="/" to="/Covid-Tracker" />
        </switch>
         <div class="made-with-love">
           <span>Made with</span>
