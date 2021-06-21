@@ -32,13 +32,7 @@
     transition: all .4s;
   }
   
-  .active {
-    border-bottom: 1px solid #a5d6c4;
-    background-color: #a5d6c4;
-    color: #fff;
-    padding: .8rem;
-    
-  }
+  
   
  
   
