@@ -12,10 +12,10 @@ const StateWise=()=>{
     },[]);
 
     const getIndiaCovidData= async ()=>{
-        console.log("component did mount has runned");
+        //console.log("component did mount has runned");
         const res = await fetch('https://api.covid19india.org/data.json')
         const coviddata = await res.json();
-          console.log(coviddata.statewise);
+          //console.log(coviddata.statewise);
           SetCovidStates(coviddata.statewise);
         
       }
