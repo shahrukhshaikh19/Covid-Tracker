@@ -57,9 +57,9 @@ function FetchCovidData() {
     return (
       <div className="tc">
 
-        <SearchBox SearchItem={this.OnSearchChange} />
+        <SearchBox SearchItem={OnSearchChange} />
         <CardList CovidCountries={filteredcountries}/> 
-      {/* <SearchBox SearchItem={OnSearchChange} />
+      {/* <SearchBox SearchItem={this.OnSearchChange} />
         <CardList CovidCountries={filteredcountries}/>
     */}
 
