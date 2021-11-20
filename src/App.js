@@ -4,7 +4,6 @@ import SearchBox from './Components/SearchBox';
 import './App.css';
 import Navbar from './Components/Navbar';
 import {Route, Redirect, Switch} from 'react-router-dom';
-import StateWise from './Components/StateWise';
 import FetchCovidData from './Components/FetchCovidData';
 import About from './Components/About';
 
@@ -16,7 +15,6 @@ function App() {
         <Navbar />
        <switch>
        <Route exact path='/Covid-Tracker'  component={FetchCovidData}/>
-          <Route exact path='/Covid-Tracker/StateWise'  component={StateWise}/>
           <Route exact path='/Covid-Tracker/About'  component={About}/>
           <Redirect exact from="/" to="/Covid-Tracker" />
        </switch>
