@@ -13,9 +13,6 @@ const Navbar = () => {
       <NavLink className="nav__link "  to="/Covid-Tracker">Home</NavLink>&nbsp;
     </li>
     <li>
-    <NavLink className="nav__link "  to="/Covid-Tracker/StateWise">StateWise</NavLink>
-    </li>
-    <li>
     <NavLink className="nav__link "  to="/Covid-Tracker/About">About</NavLink>
     </li>
     </ul>
